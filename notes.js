@@ -1,4 +1,4 @@
-console.log("Notes.js is in the house!!");
+console.log("Notes.js activated.");
 
 module.exports.addNote = () => {
   console.log('addNote called');
