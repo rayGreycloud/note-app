@@ -1,5 +1,3 @@
-console.log("Notes.js activated.");
-
 const fs = require('fs');
 
 var fetchNotes = () => {
@@ -31,7 +29,7 @@ var addNote = (title, body) => {
 };
 
 var getAll = () => {
-  console.log('Listing all notes');
+  return fetchNotes();
 };
 
 var getNote = (title) => {
